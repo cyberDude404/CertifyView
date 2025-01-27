@@ -15,7 +15,7 @@ def print_ascii_art():
     """Generate and print ASCII art with dynamic resizing."""
     terminal_width = max(get_terminal_width(), 40)  # Ensure a minimum width for readability
     ascii_art = pyfiglet.figlet_format("CertifyView", width=terminal_width - 4)
-    colored_ascii_art = f"{Fore.CYAN}{ascii_art}{Style.RESET_ALL}"
+    colored_ascii_art = f"{Fore.YELLOW}{ascii_art}{Style.RESET_ALL}"
     print(colored_ascii_art)
 
     # Add the author's name (small signature)
