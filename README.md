@@ -25,7 +25,7 @@ To run this program, you need:
 ### Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/CertifyView.git
+   git clone https://github.com/cyberDude404/CertifyView.git
    cd CertifyView
    ```
 
